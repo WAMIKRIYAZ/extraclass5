@@ -1,0 +1,40 @@
+.grid-container{
+ display: grid;
+ grid-template-columns: 30% 25% 30%;
+ grid-template-rows: 50% 50%;
+ gap: 1em;
+
+}
+
+.grid-box1{
+ border: 1px solid red;
+ padding: 1em;
+ 
+}
+.grid-box2{
+ border: 1px solid red;
+ padding: 1em;
+ 
+}
+
+.grid-box3{
+ border: 1px solid red;
+ padding: 1em;
+ grid-column: 1/2;
+ grid-row: 2/3;
+ 
+}
+
+.grid-box4{
+ border: 1px solid red;
+ padding: 1em;
+ 
+}
+
+.grid-box5{
+ border: 1px solid red;
+ padding: 1em;
+ 
+}
+
+
